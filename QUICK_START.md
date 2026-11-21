@@ -5,7 +5,7 @@
 ### 1️⃣ Installer les dépendances
 
 ```bash
-cd App-jemaos/setsound-suite-tsx
+cd App-wings8os/setsound-suite-tsx
 npm install
 ```
 

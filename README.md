@@ -6,7 +6,7 @@
 
 ### The complete audio toolkit that runs entirely in your browser
 
-[![Made by Jema Technology](https://img.shields.io/badge/Made%20by-Jema%20Technology-8286ef)](https://www.jematechnology.fr)
+[![Made by Wings8 Technology](https://img.shields.io/badge/Made%20by-Wings8%20Technology-8286ef)](https://www.wings8.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![React](https://img.shields.io/badge/React-18-61dafb?logo=react&logoColor=white)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
@@ -91,7 +91,7 @@ Plus:
 ### Development
 
 ```bash
-git clone https://github.com/JemaOS/setsound.git
+git clone https://github.com/Wings8-Tech/setsound.git
 cd setsound
 npm install
 npm run dev
@@ -134,7 +134,7 @@ src/
 ├── components/     # UI (cutter, joiner, recorder, …)
 ├── hooks/          # audio + state hooks
 ├── i18n/           # English / French translations
-└── SubscriptionGuard.tsx   # JemaOS Pro session handling
+└── SubscriptionGuard.tsx   # Wings8OS Pro session handling
 ```
 
 ---
@@ -156,5 +156,5 @@ git push origin feat/my-feature
 Released under the **MIT License** — see [LICENSE](LICENSE).
 
 <div align="center">
-Made with ❤️ by <a href="https://www.jematechnology.fr">Jema Technology</a>
+Made with ❤️ by <a href="https://www.wings8.org">Wings8 Technology</a>
 </div>

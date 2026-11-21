@@ -1,4 +1,4 @@
-// Copyright (c) 2025 Jema Technology.
+// Copyright (c) 2025 Wings8 Technology.
 // Distributed under the license specified in the root directory of this project.
 
 import { useState, useEffect } from 'react';
@@ -104,13 +104,13 @@ function App() {
           <footer className="py-4 px-6 text-center text-sm text-neutral-500 border-t border-neutral-800/50">
             {t('developedBy')}{' '}
             <a
-              href="https://www.jematechnology.fr/"
+              href="https://www.wings8.org/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-semibold transition-all hover:opacity-80"
               style={{ color: '#6b6fdb' }}
             >
-              Jema Technology
+              Wings8 Technology
             </a>
             {' '}{t('footerSuffix')}
           </footer>
