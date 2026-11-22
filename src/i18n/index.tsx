@@ -24,7 +24,7 @@ function detectInitialLang(): Lang {
     const saved = localStorage.getItem(LANG_STORAGE_KEY);
     if (saved === 'en' || saved === 'fr') return saved;
   } catch {
-    /* stockage indisponible */
+    /* storage unavailable */
   }
   return 'en';
 }
