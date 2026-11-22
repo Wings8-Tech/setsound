@@ -26,17 +26,6 @@ function detectInitialLang(): Lang {
   } catch {
     /* stockage indisponible */
   }
-  try {
-    const candidates = navigator.languages?.length
-      ? navigator.languages
-      : [navigator.language];
-    for (const candidate of candidates) {
-      const short = (candidate || '').toLowerCase().split('-')[0];
-      if (short === 'en' || short === 'fr') return short;
-    }
-  } catch {
-    /* navigator indisponible */
-  }
   return 'en';
 }
 

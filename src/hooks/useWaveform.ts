@@ -30,7 +30,7 @@ const isLowEndDevice = (): boolean => {
 
 const maxSamples = isLowEndDevice() ? MAX_SAMPLES_LOW_END : MAX_SAMPLES_HIGH_END;
 
-export const useWaveform = ({ audioBuffer, canvasRef, color = '#8286ef', zoom = 1 }: UseWaveformProps) => {
+export const useWaveform = ({ audioBuffer, canvasRef, color = '#0A1F4A', zoom = 1 }: UseWaveformProps) => {
   const animationFrameRef = useRef<number>();
   const lastDrawParamsRef = useRef<{ width: number; height: number; zoom: number } | null>(null);
   const isDrawingRef = useRef(false);
