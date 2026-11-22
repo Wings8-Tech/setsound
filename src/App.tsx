@@ -107,8 +107,7 @@ function App() {
               href="https://www.wings8.org/"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-semibold transition-all hover:opacity-80"
-              style={{ color: '#0B1F4B' }}
+              className="font-semibold transition-all hover:opacity-80 text-[#0B1F4B] dark:text-[#F99634]"
             >
               Wings8 Technology
             </a>
