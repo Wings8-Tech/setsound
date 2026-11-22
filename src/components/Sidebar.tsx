@@ -96,7 +96,7 @@ export const Sidebar = ({ currentTool, onToolChange, isOpen, onToggle }: Sidebar
         <div className="flex items-center justify-between gap-3">
           <div className="flex items-center gap-2 sm:gap-3 min-w-0">
             <svg width="28" height="28" viewBox="0 0 32 32" fill="none" className="flex-shrink-0 sm:w-8 sm:h-8">
-              <rect width="32" height="32" rx="8" fill="#8286ef"/>
+              <rect width="32" height="32" rx="8" fill="#0B1F4B"/>
               <circle cx="16" cy="16" r="10" fill="white" fillOpacity="0.15"/>
               <path d="M14 10v12l8-6z" fill="white"/>
               <circle cx="14" cy="16" r="1.5" fill="white"/>

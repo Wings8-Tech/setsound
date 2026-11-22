@@ -39,7 +39,7 @@ export default defineConfig({
         name: 'Setsound - Suite Audio Complète',
         short_name: 'Setsound',
         description: 'Suite audio complète : découpeur, fusionneur, détecteur BPM et enregistreur',
-        theme_color: '#8286ef',
+        theme_color: '#0B1F4B',
         background_color: '#0A0A0A',
         display: 'standalone',
         orientation: 'portrait-primary',

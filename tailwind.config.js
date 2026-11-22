@@ -13,7 +13,7 @@ export default {
       colors: {
         primary: {
           300: '#8FA6C7',
-          500: '#0A1F4A',
+          500: '#0B1F4B',
           700: '#061533',
         },
         neutral: {

@@ -150,7 +150,7 @@ export const ExportModal = ({ isOpen, onClose, onExport, fileName }: ExportModal
           {/* Export button - Touch-friendly */}
           <button
             onClick={handleExport}
-            className="w-full px-4 sm:px-6 py-3 sm:py-4 bg-[#8286ef] hover:bg-[#6b6fdb] active:bg-[#5a5ec7] text-white rounded-lg sm:rounded-xl font-medium transition-colors flex items-center justify-center gap-2 sm:gap-3 shadow-lg text-sm sm:text-base min-h-[52px]"
+            className="w-full px-4 sm:px-6 py-3 sm:py-4 bg-[#0B1F4B] hover:bg-[#0B1F4B] active:bg-[#5a5ec7] text-white rounded-lg sm:rounded-xl font-medium transition-colors flex items-center justify-center gap-2 sm:gap-3 shadow-lg text-sm sm:text-base min-h-[52px]"
           >
             <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2.5" className="sm:w-5 sm:h-5">
               <path d="M10 3v11M10 14l-4-4M10 14l4-4" strokeLinecap="round" strokeLinejoin="round"/>

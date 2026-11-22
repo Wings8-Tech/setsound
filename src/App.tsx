@@ -108,7 +108,7 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
               className="font-semibold transition-all hover:opacity-80"
-              style={{ color: '#6b6fdb' }}
+              style={{ color: '#0B1F4B' }}
             >
               Wings8 Technology
             </a>

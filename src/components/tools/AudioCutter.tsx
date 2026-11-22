@@ -59,7 +59,7 @@ export const AudioCutter = ({ audioContext }: AudioCutterProps) => {
     updateAudioBuffer();
   }, [segments]);
   
-  useWaveform({ audioBuffer, canvasRef, color: '#8286ef', zoom });
+  useWaveform({ audioBuffer, canvasRef, color: '#0B1F4B', zoom });
   
   const { isPlaying, currentTime, duration, volume, play, pause, seek, changeVolume } =
     useAudioPlayer({
@@ -698,7 +698,7 @@ export const AudioCutter = ({ audioContext }: AudioCutterProps) => {
             <button
               onClick={() => setShowExportModal(true)}
               disabled={isProcessing}
-              className="px-4 sm:px-6 py-3 sm:py-4 bg-[#8286ef] hover:bg-[#6b6fdb] active:bg-[#5a5ec7] text-white rounded-lg sm:rounded-xl font-medium transition-colors disabled:opacity-50 flex items-center justify-center gap-2 sm:gap-3 shadow-lg min-h-[52px] sm:min-h-[56px]"
+              className="px-4 sm:px-6 py-3 sm:py-4 bg-[#0B1F4B] hover:bg-[#0B1F4B] active:bg-[#5a5ec7] text-white rounded-lg sm:rounded-xl font-medium transition-colors disabled:opacity-50 flex items-center justify-center gap-2 sm:gap-3 shadow-lg min-h-[52px] sm:min-h-[56px]"
             >
               <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2.5" className="sm:w-5 sm:h-5 flex-shrink-0">
                 <path d="M10 3v11M10 14l-4-4M10 14l4-4" strokeLinecap="round" strokeLinejoin="round"/>

@@ -16,7 +16,7 @@ const waveformCache = new WeakMap<AudioBuffer, Float32Array>();
 // Maximum samples for performance
 const MAX_SAMPLES = 600;
 
-const WaveformTrackComponent = ({ audioBuffer, color = '#8286ef', height = 60 }: WaveformTrackProps) => {
+const WaveformTrackComponent = ({ audioBuffer, color = '#0B1F4B', height = 60 }: WaveformTrackProps) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const animationFrameRef = useRef<number>();
   const lastWidthRef = useRef<number>(0);

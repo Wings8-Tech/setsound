@@ -949,7 +949,7 @@ export const AudioJoiner = ({ audioContext }: AudioJoinerProps) => {
               <button
                 onClick={openExportModal}
                 disabled={isProcessing}
-                className="px-4 py-2 bg-[#8286ef] hover:bg-[#6b6fdb] text-white rounded-lg transition-colors disabled:opacity-50 flex items-center gap-2"
+                className="px-4 py-2 bg-[#0B1F4B] hover:bg-[#0B1F4B] text-white rounded-lg transition-colors disabled:opacity-50 flex items-center gap-2"
               >
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M8 2v10M8 12l-3-3M8 12l3-3" strokeLinecap="round" strokeLinejoin="round"/>
@@ -1069,7 +1069,7 @@ const TrackTimeline = ({
   const waveformOptions = useMemo(() => ({
     audioBuffer: track.buffer,
     canvasRef,
-    color: '#8286ef',
+    color: '#0B1F4B',
     zoom
   }), [track.buffer, zoom]);
 

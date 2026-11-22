@@ -424,7 +424,7 @@ export const AudioRecorder = ({ audioContext }: AudioRecorderProps) => {
                 <div className="flex gap-1.5 sm:gap-2">
                   <button
                     onClick={() => openExportModal(recording.blob, recording.duration)}
-                    className="w-11 h-11 sm:w-10 sm:h-10 rounded-full bg-neutral-800 hover:bg-[#8286ef] active:bg-[#6b6fdb] text-neutral-100 hover:text-white flex items-center justify-center transition-colors min-h-[44px] min-w-[44px] sm:min-h-[40px] sm:min-w-[40px]"
+                    className="w-11 h-11 sm:w-10 sm:h-10 rounded-full bg-neutral-800 hover:bg-[#0B1F4B] active:bg-[#0B1F4B] text-neutral-100 hover:text-white flex items-center justify-center transition-colors min-h-[44px] min-w-[44px] sm:min-h-[40px] sm:min-w-[40px]"
                   >
                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="2">
                       <path d="M9 2v10M9 12l-3-3M9 12l3-3" strokeLinecap="round" strokeLinejoin="round"/>
